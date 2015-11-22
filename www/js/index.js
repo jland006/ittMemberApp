@@ -35,10 +35,10 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 		if(PushbotsPlugin.isiOS()){
-			PushbotsPlugin.initializeiOS("PUSHBOTS_APP_ID");
+			PushbotsPlugin.initializeiOS("565152891779591b1b8b4568");
 		}
 		if(PushbotsPlugin.isAndroid()){
-			PushbotsPlugin.initializeAndroid("PUSHBOTS_APP_ID", "SENDER_ID");
+			PushbotsPlugin.initializeAndroid("565152891779591b1b8b4568", "172890108322");
 		}
     },
     // Update DOM on a Received Event
