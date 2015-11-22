@@ -40,6 +40,9 @@ var app = {
 		if(PushbotsPlugin.isAndroid()){
 			PushbotsPlugin.initializeAndroid("565152891779591b1b8b4568", "172890108322");
 		}
+		PushbotsPlugin.getToken(function(token){
+			document.getElementById("tok").innerHTML = token;
+		});
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
